@@ -1,0 +1,871 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdwn {
+    margin: 0 auto;
+    font-size: 10pt;
+}
+
+.dropdwn_artigo {
+    color: #D7F9FF;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background: linear-gradient(to right, #093366 0%, #041b2e 50%, #093366 100%);
+    box-shadow: 0 10px 16px rgba(26, 25, 25, 0.6);
+    position: absolute;
+}
+
+.logo {
+    height: 64px;
+    transition: all 0.3s ease-out;
+}
+
+nav {
+    height: 60px;
+    background: linear-gradient(to right, #141a1f 0%, #141414 50%, #141a1f 100%);
+    box-shadow: 0 10px 16px rgba(26, 25, 25, 0.6);
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+    background: none;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px;
+    color: #F0EFEF;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: Impact, 'Poppins Narrow Bold', sans-serif;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 130px;
+}
+
+.cardone {
+    border-radius: 8px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 10px;
+    width: 280px;
+    height: 450px;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+}
+
+.cardtwo {
+    border-radius: 8px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 10px;
+    width: 280px;
+    height: 450px;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+}
+
+.cardtree {
+    border-radius: 8px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 10px;
+    width: 280px;
+    height: 450px;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+}
+
+.cardfour {
+    border-radius: 8px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 10px;
+    width: 280px;
+    height: 450px;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+}
+
+.cardfive {
+    border-radius: 8px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 10px;
+    width: 280px;
+    height: 450px;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+}
+
+.cardsix {
+    border-radius: 8px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 10px;
+    width: 280px;
+    height: 450px;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+}
+
+.cardseven {
+    border-radius: 8px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 10px;
+    width: 280px;
+    height: 450px;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+}
+
+.cardeight {
+    border-radius: 8px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 10px;
+    width: 280px;
+    height: 450px;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+}
+
+.cardnine {
+    border-radius: 8px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 10px;
+    width: 280px;
+    height: 450px;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+}
+
+.cardten {
+    border-radius: 8px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 10px;
+    width: 280px;
+    height: 450px;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+}
+
+.cardone h1 {
+    text-align: justify;
+}
+
+.cardone p {
+    margin-top: 22px;
+}
+
+.cardtwo h1 {
+    text-align: justify;
+}
+
+.cardtwo p {
+    margin-top: 50px;
+}
+
+.cardtree h1 {
+    text-align: justify;
+}
+
+.cardtree p {
+    margin-top: 50px;
+}
+
+.cardone p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.cardtwo p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.cardtree p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.elementodocard {
+    font-size: 10px;
+    margin: 10px;
+    position: absolute;
+    background-color: #82b7f8;
+    color: #fff;
+    padding: 0.6em 1.2em;
+    line-height: 1;
+    border-radius: 999px;
+}
+
+.elementodocardtwo {
+    font-size: 10px;
+    margin: 10px;
+    position: absolute;
+    background-color: #3bb54a;
+    color: #fff;
+    padding: 0.6em 1.2em;
+    line-height: 1;
+    border-radius: 999px;
+}
+
+.elementodocardtree {
+    font-size: 10px;
+    margin: 10px;
+    position: absolute;
+    background-color: #ffc400;
+    color: #fff;
+    padding: 0.6em 1.2em;
+    line-height: 1;
+    border-radius: 999px;
+}
+
+.elementodocardfour {
+    font-size: 10px;
+    margin: 10px;
+    position: absolute;
+    background-color: #FF5733;
+    color: #fff;
+    padding: 0.6em 1.2em;
+    line-height: 1;
+    border-radius: 999px;
+}
+
+.elementodocardfive {
+    font-size: 10px;
+    margin: 10px;
+    position: absolute;
+    background-color: #FF5733;
+    color: #fff;
+    padding: 0.6em 1.2em;
+    line-height: 1;
+    border-radius: 999px;
+}
+
+.elementodocardsix {
+    font-size: 10px;
+    margin: 10px;
+    position: absolute;
+    background-color: #ffc400;
+    color: #fff;
+    padding: 0.6em 1.2em;
+    line-height: 1;
+    border-radius: 999px;
+}
+
+.elementodocardseven {
+    font-size: 10px;
+    margin: 10px;
+    position: absolute;
+    background-color: #82b7f8;
+    color: #fff;
+    padding: 0.6em 1.2em;
+    line-height: 1;
+    border-radius: 999px;
+}
+
+.elementodocardeight {
+    font-size: 10px;
+    margin: 10px;
+    position: absolute;
+    background-color: #ae3cf0;
+    color: #fff;
+    padding: 0.6em 1.2em;
+    line-height: 1;
+    border-radius: 999px;
+}
+
+.elementodocardnine {
+    font-size: 10px;
+    margin: 10px;
+    position: absolute;
+    background-color: #3bb54a;
+    color: #fff;
+    padding: 0.6em 1.2em;
+    line-height: 1;
+    border-radius: 999px;
+}
+
+.elementodocardten {
+    font-size: 10px;
+    margin: 10px;
+    position: absolute;
+    background-color: #ae3cf0;
+    color: #fff;
+    padding: 0.6em 1.2em;
+    line-height: 1;
+    border-radius: 999px;
+}
+
+
+.cardone:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.cardtwo:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.cardtree:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.cardfour:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.cardfive:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.cardsix:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.cardseven:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.cardeight:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.cardnine:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.cardten:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.logo:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card p {
+    color: #a3a5ae;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.image {
+    float: left;
+    max-width: 15px;
+    max-height: 15px;
+    opacity: 0.8;
+    margin-left: 10px;
+}
+
+.image1 {
+    border-radius: 8px;
+    width: 280px;
+    height: 180px;
+}
+
+.image2 {
+    border-radius: 8px;
+    width: 280px;
+    height: 180px;
+}
+
+.image3 {
+    border-radius: 8px;
+    width: 280px;
+    height: 180px;
+}
+
+.image4 {
+    border-radius: 8px;
+    width: 280px;
+    height: 180px;
+}
+
+.image5 {
+    border-radius: 8px;
+    width: 280px;
+    height: 180px;
+}
+
+.image6 {
+    border-radius: 8px;
+    width: 280px;
+    height: 180px;
+}
+
+.image7 {
+    border-radius: 8px;
+    width: 280px;
+    height: 180px;
+}
+
+.image8 {
+    border-radius: 8px;
+    width: 280px;
+    height: 180px;
+}
+
+.image9 {
+    border-radius: 8px;
+    width: 280px;
+    height: 180px;
+}
+
+.image10 {
+    border-radius: 8px;
+    width: 280px;
+    height: 180px;
+}
+
+span {
+    color: #083265;
+    margin-left: 200px;
+}
+
+.testedata {
+    color: black;
+    margin-left: 10vw;
+    margin-left: -31vw;
+    text-align: justify;
+}
+
+.view-count {
+    color: rgba(121, 125, 129, 0.8);
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.cardone {
+    border-left: 3px solid #4895ff;
+    font-size: 14px;
+    position: justify;
+}
+
+.cardone h2 {
+    text-align: justify;
+}
+
+.cardtwo {
+    border-left: 3px solid #3bb54a;
+    font-size: 14px;
+    position: justify;
+}
+
+.cardtwo h2 {
+    text-align: justify;
+}
+
+.cardtree {
+    border-left: 3px solid #ffc400;
+    font-size: 14px;
+    position: justify;
+}
+
+.cardtree h2 {
+    text-align: justify;
+}
+
+.cardfour {
+    border-left: 3px solid #FF5733;
+    font-size: 14px;
+    position: justify;
+}
+
+.cardfour h2 {
+    text-align: justify;
+}
+
+.cardfive {
+    border-left: 3px solid #FF5733;
+    font-size: 14px;
+    position: justify;
+}
+
+.cardfive h2 {
+    text-align: justify;
+}
+
+.cardsix {
+    border-left: 3px solid #ffc400;
+    font-size: 14px;
+    position: justify;
+}
+
+.cardsix h2 {
+    text-align: justify;
+}
+
+.cardseven {
+    border-left: 3px solid #4895ff;
+    font-size: 14px;
+    position: justify;
+}
+
+.cardseven h2 {
+    text-align: justify;
+}
+
+.cardeight {
+    border-left: 3px solid #ae3cf0;
+    font-size: 14px;
+    position: justify;
+}
+
+.cardeight h2 {
+    text-align: justify;
+}
+
+.cardnine {
+    border-left: 3px solid #3bb54a;
+    font-size: 14px;
+    position: justify;
+}
+
+.cardten {
+    border-left: 3px solid #ae3cfa;
+    font-size: 14px;
+    position: justify;
+}
+
+.cardnine h2 {
+    text-align: justify;
+}
+
+.cardten h2 {
+    text-align: justify;
+}
+
+.post h1 {
+    color: #051d3b;
+    max-width: 70%;
+    text-align: justify;
+}
+
+.post {
+    color: #0a0a0a;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.post p {
+    text-align: justify;
+    margin-right: 7vw;
+    /*'vw' para manter a margem relativa à largura da viewport */
+    margin-left: 7vw;
+    /* 'vw' para manter a margem relativa à largura da viewport */
+    font-size: 1.1em;
+}
+
+.image1p {
+    width: auto;
+    height: auto;
+    max-width: 71%;
+    max-height: 71vh;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.image2p {
+    width: auto;
+    height: auto;
+    max-width: 71%;
+    max-height: 70h;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.image3p {
+    width: auto;
+    height: auto;
+    max-width: 70%;
+    max-height: 61vh;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.image4p {
+    width: auto;
+    height: auto;
+    max-width: 71%;
+    max-height: 70%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.image5p {
+    width: auto;
+    height: auto;
+    max-width: 71%;
+    max-height: 70%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.image6p {
+    width: auto;
+    height: auto;
+    max-width: 71%;
+    max-height: 70%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.image7p {
+    width: auto;
+    height: auto;
+    max-width: 71%;
+    max-height: 70%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.image8p {
+    width: auto;
+    height: auto;
+    max-width: 71%;
+    max-height: 70%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.image9p {
+    width: auto;
+    height: auto;
+    max-width: 71%;
+    max-height: 70%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.image10p {
+    width: auto;
+    height: auto;
+    max-width: 71%;
+    max-height: 70%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+a {
+    padding: 0 15px;
+    color: rgb(248, 242, 247);
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+footer {
+    background: #051d3b;
+    color: #fff;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: #F0EFEF;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.svg-container {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.instagram,
+.github,
+.linkedin {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.instagram:hover a svg {
+    stroke: #993399;
+}
+
+.github:hover a svg {
+    stroke: #2E8B57;
+}
+
+.linkedin:hover a svg {
+    stroke: #54dce6;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 767px) {
+
+    /* Estilos CSS para dispositivos móveis */
+    body {
+        font-size: 14px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .dropdwn {
+        width: 100%;
+        position: 0 auto;
+    }
+
+    .h1 {
+        font-size: 12px;
+    }
+
+    .dropdwn_artigo {
+        text-align: left;
+    }
+
+    .cardone,
+    .cardtwo,
+    .cardtree,
+    .cardfour,
+    .cardfive,
+    .cardsix {
+        width: 70%;
+        margin: 20 px 0;
+    }
+
+    .post h1 {
+        max-width: 100%;
+        font-size: 18px;
+        text-align: justify;
+        margin: 20px;
+    }
+
+    .post,
+    .p {
+        max-width: 80%;
+        margin-left: 130px;
+    }
+
+    .image1p,
+    .image2p,
+    .image3p,
+    .image4p,
+    .image5p,
+    .image6p {
+        max-width: 30vh;
+        margin: auto 0;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* Estilos CSS para tablets */
+    body {
+        font-size: 16px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .cardone,
+    .cardtwo,
+    .cardtree,
+    .cardfour,
+    .cardfive,
+    .cardsix {
+        width: 50%;
+        margin: 20px 0;
+        margin-left: 140px;
+    }
+
+    .p {
+        text-align: justify;
+    }
+
+    .image1p,
+    .image2p,
+    .image3p,
+    .image4p,
+    .image5p,
+    .image6p {
+        max-width: 100%;
+    }
+
+    .post {
+        width: 100%;
+        max-width: 720px;
+        margin: 0 auto;
+    }
+
+    .svg-container {
+        text-align: center;
+    }
+}
