@@ -13,7 +13,7 @@ const datatimenow = `${new Date().toLocaleDateString()}`;
 switch (indice) {
     case '0':
         data_title.innerHTML = "Inteligência Artificial Impulsiona a Revolução na Medicina Personalizada."
-        data_img.setAttribute('src', '/Imagens/Imagem circuito.jpg')
+        data_img.setAttribute('src', '/Imagens/circuito.jpg')
         data_img.setAttribute('alt', 'image1')
         data_img.setAttribute('class', 'image1p')
         data_date.innerHTML = datatimenow;
