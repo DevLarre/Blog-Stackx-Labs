@@ -13,7 +13,7 @@ const datatimenow = `${new Date().toLocaleDateString()}`;
 switch (indice) {
     case '0':
         data_title.innerHTML = "Inteligência Artificial Impulsiona a Revolução na Medicina Personalizada."
-        data_img.setAttribute('src', '/Imagens/circuito.jpg')
+        data_img.setAttribute('src', 'Imagens/circuito.jpg')
         data_img.setAttribute('alt', 'image1')
         data_img.setAttribute('class', 'image1p')
         data_date.innerHTML = datatimenow;
@@ -105,7 +105,7 @@ switch (indice) {
 
     case '1':
         data_title.innerHTML = "Programação funcional: o futuro da programação?"
-        data_img.setAttribute('src', '/Imagens/programacao.jpg')
+        data_img.setAttribute('src', 'Imagens/programacao.jpg')
         data_img.setAttribute('alt', 'image2')
         data_img.setAttribute('class', 'image2p')
         data_date.innerHTML = datatimenow;
@@ -205,7 +205,7 @@ switch (indice) {
 
     case '2':
         data_title.innerHTML = "Você sabe o que é a Robótica bioinspirada?"
-        data_img.setAttribute('src', '/Imagens/robotica.jpg')
+        data_img.setAttribute('src', 'Imagens/robotica.jpg')
         data_img.setAttribute('alt', 'image3')
         data_img.setAttribute('class', 'image3p')
         data_date.innerHTML = datatimenow;
@@ -265,7 +265,7 @@ switch (indice) {
 
     case '3':
         data_title.innerHTML = "Como proteger seus dados corporativos de ataques cibernéticos"
-        data_img.setAttribute('src', '/Imagens/Ciber.jpg')
+        data_img.setAttribute('src', 'Imagens/Ciber.jpg')
         data_img.setAttribute('alt', 'image4')
         data_img.setAttribute('class', 'image4p')
         data_date.innerHTML = datatimenow;
@@ -339,7 +339,7 @@ Ao seguir essas dicas, você pode ajudar a proteger seus dados e sistemas de ata
 
     case '4':
         data_title.innerHTML = "As Tendências Emergentes em Cibersegurança."
-        data_img.setAttribute('src', '/Imagens/tendencias.jpg')
+        data_img.setAttribute('src', 'Imagens/tendencias.jpg')
         data_img.setAttribute('alt', 'image5')
         data_img.setAttribute('class', 'image5p')
         data_date.innerHTML = datatimenow;
@@ -378,7 +378,7 @@ Lembre-se de que este é apenas um esboço de um artigo sobre cibersegurança. V
 
     case '5':
         data_title.innerHTML = "Robôs realizam cirurgias cardíacas com precisão."
-        data_img.setAttribute('src', '/Imagens/cirurgia_robotica.jpg')
+        data_img.setAttribute('src', 'Imagens/cirurgia_robotica.jpg')
         data_img.setAttribute('alt', 'image6')
         data_img.setAttribute('class', 'image6p')
         data_date.innerHTML = datatimenow;
@@ -409,7 +409,7 @@ Além da cirurgia cardíaca, os pesquisadores estão desenvolvendo robôs cirúr
 
     case '6':
         data_title.innerHTML = "Metaverso, a internet que não é apenas virtual."
-        data_img.setAttribute('src', '/Imagens/metaverso.jpg')
+        data_img.setAttribute('src', 'Imagens/metaverso.jpg')
         data_img.setAttribute('alt', 'image7')
         data_img.setAttribute('class', 'image7p')
         data_date.innerHTML = datatimenow;
@@ -448,7 +448,7 @@ Outro desafio é que o metaverso pode ser usado para fins maliciosos, como cyber
 
     case '7':
         data_title.innerHTML = "Desenvolvedores autônomos de jogos ganham espaço."
-        data_img.setAttribute('src', '/Imagens/games.jpg')
+        data_img.setAttribute('src', 'Imagens/games.jpg')
         data_img.setAttribute('alt', 'image8')
         data_img.setAttribute('class', 'image8p')
         data_date.innerHTML = datatimenow;
