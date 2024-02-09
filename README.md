@@ -26,3 +26,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
  - HTML e CSS ✔
  - JavaScript ✔
  - Git e Github ✔
+ 
+ 
+ 
+ ## Acesse meu blog
+ - https://devlarre.github.io/Blog-Stackx-Labs/
